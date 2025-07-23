@@ -1,0 +1,185 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CyberSafe Guide | دليل الحماية من الاختراق</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0; padding: 0; box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+    body {
+      background-color: #0a0a0a;
+      color: white;
+      line-height: 1.6;
+    }
+    header {
+      background-color: #101820;
+      padding: 15px 30px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+    header h1 {
+      color: #00ffae;
+    }
+    nav a {
+      color: white;
+      margin-left: 20px;
+      text-decoration: none;
+    }
+    .hero {
+      text-align: center;
+      padding: 80px 20px;
+      background: linear-gradient(#101820, #0a0a0a);
+    }
+    .hero h2 {
+      font-size: 2.5rem;
+      color: #00ffae;
+    }
+    .hero p {
+      font-size: 1.2rem;
+      margin-top: 10px;
+    }
+    .section {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 40px 20px;
+      gap: 40px;
+      justify-content: center;
+    }
+    .card {
+      background-color: #1e1e1e;
+      padding: 20px;
+      border-radius: 10px;
+      max-width: 400px;
+      flex: 1;
+      box-shadow: 0 0 10px #00ffae66;
+    }
+    .card h3 {
+      color: #00ffae;
+    }
+    .faq {
+      padding: 40px 20px;
+    }
+    .faq-item {
+      margin-bottom: 20px;
+    }
+    .faq-item h4 {
+      color: #00ffae;
+    }
+    footer {
+      background-color: #101820;
+      padding: 20px;
+      text-align: center;
+      font-size: 14px;
+      color: #ccc;
+    }
+    .lang-blocks {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+    .lang {
+      flex: 1;
+      min-width: 300px;
+    }
+    @media (max-width: 600px) {
+      .hero h2 { font-size: 2rem; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>🔒 CyberSafe Guide</h1>
+  <nav>
+    <a href="#tips">Tips</a>
+    <a href="#faq">FAQ</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <h2>Stay Safe from Hackers | ابق آمنًا من الهاكرز</h2>
+  <p>No tech knowledge needed. Learn easy steps to protect yourself. <br /> بدون أي خبرة تقنية، تعلم خطوات بسيطة لحمايتك.</p>
+</section>
+
+<section class="section" id="tips">
+  <div class="card lang">
+    <h3>5 Easy Tips (English)</h3>
+    <ul>
+      <li>Use strong passwords</li>
+      <li>Enable 2FA (Two-Factor Authentication)</li>
+      <li>Don’t click on strange links</li>
+      <li>Update your software regularly</li>
+      <li>Install antivirus protection</li>
+    </ul>
+  </div>
+  <div class="card lang" dir="rtl">
+    <h3>٥ نصائح سهلة (العربية)</h3>
+    <ul>
+      <li>استخدم كلمات مرور قوية</li>
+      <li>فعّل التحقق بخطوتين</li>
+      <li>لا تضغط على الروابط المشبوهة</li>
+      <li>حدث البرامج بانتظام</li>
+      <li>ثبت برامج الحماية من الفيروسات</li>
+    </ul>
+  </div>
+</section>
+
+<section class="faq" id="faq">
+  <h2 style="text-align:center; color:#00ffae;">FAQs | الأسئلة الشائعة</h2>
+  <div class="section">
+    <div class="card lang">
+      <div class="faq-item">
+        <h4>How do I know if I’ve been hacked?</h4>
+        <p>You may notice unknown activity, messages sent without your knowledge, or strange software.</p>
+      </div>
+      <div class="faq-item">
+        <h4>What is a strong password?</h4>
+        <p>A mix of letters, numbers, and symbols. Avoid using personal info.</p>
+      </div>
+    </div>
+    <div class="card lang" dir="rtl">
+      <div class="faq-item">
+        <h4>كيف أعرف أنني تعرضت للاختراق؟</h4>
+        <p>قد تلاحظ نشاطات غريبة، رسائل مرسلة دون علمك، أو برامج غير معتادة.</p>
+      </div>
+      <div class="faq-item">
+        <h4>ما هي كلمة المرور القوية؟</h4>
+        <p>مزيج من الحروف والأرقام والرموز. تجنب المعلومات الشخصية.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="contact">
+  <div class="card lang">
+    <h3>Need Help?</h3>
+    <p>Contact our support team:</p>
+    <form action="https://formsubmit.co/haneenabdelhadyabdelhady@gmail.com" method="POST">
+      <!-- Replace with your real email above -->
+      <input type="text" name="name" placeholder="Your Name" required style="width:100%;padding:8px;margin:10px 0;">
+      <input type="email" name="email" placeholder="Your Email" required style="width:100%;padding:8px;margin:10px 0;">
+      <textarea name="message" placeholder="Your question..." required style="width:100%;padding:8px;margin:10px 0;"></textarea>
+      <input type="hidden" name="_next" value="https://yourwebsite.com/thanks.html">
+      <input type="hidden" name="_captcha" value="false">
+      <input type="text" name="_honey" style="display:none"> <!-- Anti-spam -->
+      <button type="submit" style="padding:10px 20px;background:#00ffae;border:none;">Send</button>
+    </form>
+  </div>
+</section>
+
+<footer>
+  © 2025 CyberSafe Guide | دليل الحماية من الاختراق
+</footer>
+
+</body>
+</html>
